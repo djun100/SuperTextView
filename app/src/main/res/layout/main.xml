@@ -253,6 +253,7 @@
                 android:paddingBottom="10dp"
                 android:paddingTop="10dp"
                 stv:sDividerLineType="both"
+                stv:sDividerLineColor="@color/colorAccent"
                 stv:sLeftTextString="stv的高度自适应stv的高度自适应stv的高度自适应stv的高度自适应stv的高度自适应stv的高度自适应stv的高度自适应stv的高度自适应stv的高度自适应stv的高度自适应" />
 
         </LinearLayout>

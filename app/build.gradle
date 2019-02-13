@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.1"
     defaultConfig {
         applicationId "com.allen.supertextview"
         minSdkVersion 14
@@ -19,6 +18,14 @@ android {
     }
     productFlavors {
     }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
 }
 
 dependencies {
